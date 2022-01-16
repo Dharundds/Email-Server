@@ -1,6 +1,6 @@
 # Email-Server
 
-# How this app differ from normal email sending application
+# How this app differ from normal email sending Method in django
 
 -> This app doesn't requires you to turn on less secure apps in your gmail acc\
 -> Which means it is secure because your gmail actual password is not exposed

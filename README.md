@@ -19,7 +19,7 @@
 # Turn on sever
 * cd to Email-server
 * then open terminal or command prompt here
-* now type `pipenv shell`\ if you don't have pipenv installed then pip install pipenv the type that command
+* now type `pipenv shell`<br/> if you don't have pipenv installed then `pip install pipenv` the type that command
 * right after opening pipenv shell type `pipenv install`
 * once done type ` python manage.py runserver ` to turn on the server
 * after server is turned on navigate to http://127.0.0.1:8000

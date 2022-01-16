@@ -1,0 +1,1 @@
+# Django-sendmail-without-turning-on-less-secure-apps

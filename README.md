@@ -15,3 +15,7 @@
     consisting of two variable
     1) EMAIL_HOST_USER=youremail@gmail.com
     2) EMAIL_HOST_PASSWORD=yourAppPassword
+
+# Turn on sever
+* cd to Email-server
+* 

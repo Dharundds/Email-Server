@@ -10,6 +10,10 @@
     <form method="POST">
       {% csrf_token %}
       <h1>Test for sending email</h1>
+      <label>
+        Recipent Email:
+        <input type="email" name="recipient_mail" id="receipient_mail" />
+      </label>
       <button>Send</button>
     </form>
   </body>

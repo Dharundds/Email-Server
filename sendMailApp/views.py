@@ -8,6 +8,6 @@ def home(request):
             subject='test',
             message='This is a test',
             from_email=settings.EMAIL_HOST_USER,
-            recipient_list=['maladharunchennai@gmail.com']
+            recipient_list=['receipentaddress@gmail.com']
         )
     return render(request,'index.html',{})

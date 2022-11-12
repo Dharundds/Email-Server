@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SEND MAIL</title>
-  </head>
-  <body>
-    <form method="POST">
-      {% csrf_token %}
-      <h1>Test for sending email</h1>
-      <label>
-        Recipent Email:
-        <input type="email" name="recipient_mail" id="receipient_mail" />
-      </label>
-      <button>Send</button>
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEND MAIL</title>
+</head>
+
+<body>
+  <form action="http://127.0.0.1:8000/sendplain" method="POST">
+    <h1>Test for sending email</h1>
+    <label>
+      Recipent Email:
+      <input type="email" name="recipient_mail" id="receipient_mail" />
+    </label>
+    <label>
+      Username:
+      <input type="email" name="username" id="username" />
+    </label>
+    <label>
+      Password:
+      <input type="text" name="password" id="password" />
+    </label>
+    <button>Send</button>
+  </form>
+</body>
+
 </html>
